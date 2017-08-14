@@ -10,18 +10,18 @@ app.get('/', function (req, res) {
   
 });
 
-app.get('/article-one',function (req,res){
-res.sendfile('article one requested and server here');
+app.get('/article-one',function (req, res) {
+res.send('article one requested and server here');
     
 });
 
-app.get('/article-two',function (req,res){
-res.sendfile('article two requested and server here');
+app.get('/article-two',function (req, res) {
+res.send('article two requested and server here');
     
 });
 
-app.get('/article-three',function (req,res){
-res.sendfile('article three requested and server here');
+app.get('/article-three',function (req, res) {
+res.send('article three requested and server here');
     
 });
 
